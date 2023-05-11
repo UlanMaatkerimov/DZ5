@@ -34,7 +34,7 @@ public class Main {
 
         Hero[] hero = {batman, superman, flash};
         for (int i = 0; i < hero.length; i++) {
-            System.out.println(hero[i].getClass().getSimpleName() + " length: " + hero[i].getHeroHealth() +
+            System.out.println(hero[i].getClass().getSimpleName() + " "+ hero[i].getHeroHealth() +
                     " " + "Damage: [" + hero[i].getHeroDamage() + "]");
         }
 
